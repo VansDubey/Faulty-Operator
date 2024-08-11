@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+*{
+    padding:0 px;
+    margin:0px;
+    text-align:center;
+}
+
+body{
+    background-color: #F7F0F5;
+}
+.faultycalculator{
+    background-color:#DECBB7;
+   margin-top: 15vh;
+    padding:20px;
+    display:inline-block;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    border: solid #8F857D 3px;
+    
+
+}
+.heading{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:30px;
+
+
+}
+.operations{
+    display:flex;
+    margin-top: 10px;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius:5px;
+    gap:10px;
+ 
+    
+}
+.message{
+    visibility:hidden;
+}
+.num1{
+    color:black;
+}
+.num1,.num2,.op{
+    background-color:#8F857D ;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    border:solid black 2px;
+
+  
+ 
+ 
+}
+.ans{
+    background-color:#8F857D ;
+    border-radius:5px;
+    width:25%;
+    margin-left:6rem;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    border:solid black 2px;
+
+}
+
+.reset{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:4px;
+    
+}
+
+button{
+    border:none;
+    border-radius:5px;
+    padding:7px;
+    width:70px;
+}
+
+
+
+
+
+
+    
